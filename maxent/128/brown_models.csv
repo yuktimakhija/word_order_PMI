@@ -1,0 +1,4 @@
+,K,Corpus,Baseline Features,PMI Feature,Training Accuracy,Test Accuracy,Bias,Coefficients
+0,128,brown,"['dlg', 'wtembdep', 'ldep', 'lm', 'bkpsl']",spearman_dependents,79.45842667363459,79.35609908915507,0.006853939938875843,"{'dlg': -0.7106217955714558, 'wtembdep': -0.39004899331842663, 'ldep': -0.08813172894818688, 'lm': 1.3824778138112055, 'bkpsl': 1.0816244453005939, 'spearman_dependents': -0.10113208328458395}"
+1,128,brown,"['lm', 'bkpsl']",spearman_dependents,78.38818921099106,78.38817628992449,0.0058899664888304865,"{'lm': 1.4312838396964813, 'bkpsl': 1.1276986334488837, 'spearman_dependents': -0.1044338622328466}"
+2,128,brown,"['dlg', 'wtembdep', 'ldep']",spearman_dependents,70.64107418692387,70.42591003978907,-0.0004774407481886978,"{'dlg': -1.2691723277576763, 'wtembdep': -0.0925197131744954, 'ldep': -0.06524904818350115, 'spearman_dependents': 0.04074736136666884}"
